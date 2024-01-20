@@ -1,16 +1,23 @@
 # slc-dark README
 
-## Working with Markdown
+## 概要
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+* Sleepy Catのカラーテーマを意識したVSCodeの配色設定
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 導入方法
 
-## For more information
+* VSCodeの拡張機能として公開するまでは以下の手順で導入してください
+* GitHubからこのテーマファイルをクローンorダウンロードする
+* VSCodeのインストールフォルダを探し、拡張機能のフォルダを見つける
+  * 例：ユーザーディレクトリ/.vscode/extensions/
+* リポジトリフォルダ一式を拡張機能のフォルダに入れる
+  * extensions/slc-dark/
+* VSCodeのテーマをslc-darkにする
+* 再読み込みすると反映される
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## お願い
 
-**Enjoy!**
+* 以下のような点を見つけた方は、Discordか本リポジトリティのIssueでお知らせください
+  * 設定が見づらい
+  * この部分に色を設定してほしい
+* スクリーンショットを添付してもらえるとわかりやすいです
