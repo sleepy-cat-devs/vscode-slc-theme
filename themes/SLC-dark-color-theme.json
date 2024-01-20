@@ -11,12 +11,25 @@
 		// エディター設定
 		"editor.background": "#000e14",
 		"editor.foreground": "#dbf1fe",
+		"editorBracketHighlight.foreground1": "#dbf1fecd",
+		"editorBracketHighlight.foreground2": "#69cf5ecd",
+		"editorBracketHighlight.foreground3": "#8763d0cd",
+		"editorBracketHighlight.foreground4": "#dbf1fe9d",
+		"editorBracketHighlight.foreground5": "#69cf5e9d",
+		"editorBracketHighlight.foreground6": "#8763d09d",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#e52981",
 		"titleBar.activeBackground": "#000e14",
 		// アクティビティバーの設定
-		"activityBarBadge.background": "#00aad4",
 		"activityBar.background": "#000e14",
+		"activityBar.border": "#dbf1fe8f",
+		"activityBar.activeBackground": "#dbf1fe20",
+		"activityBar.foreground": "#dbf1fe",
+		"activityBarBadge.background": "#00aad4cd",
+		"activityBarBadge.foreground": "#dbf1fe",
 		// サイドバーの設定
 		"sideBarTitle.foreground": "#dbf1fe",
+		"sideBarSectionHeader.background": "#dbf1fecd",
+		"sideBarSectionHeader.foreground": "#000e14",
 		"sideBar.background": "#000e14",
 		"sideBar.border": "#dbf1fe8f",
 		// タブの設定
@@ -163,8 +176,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				// "foreground": "#F78C6C"
-				"foreground": "#ff0000"
+				"foreground": "#dbf1fe"
 			}
 		},
 		{
@@ -183,7 +195,7 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Support, Entity Types",
 			"scope": [
 				"entity.name",
 				"support.type",
@@ -192,21 +204,11 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				// "foreground": "#FFCB6B"
-				"foreground": "#ff0000"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
+				"support.type.sys-types",
 				"support.type"
 			],
 			"settings": {
-				// "foreground": "#B2CCD6"
-				"foreground": "#ff0000"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -351,7 +353,7 @@
 			],
 			"settings": {
 				// "foreground": "#89DDFF"
-				"foreground": "#ff0000"
+				"foreground": "#e52981"
 			}
 		},
 		{
