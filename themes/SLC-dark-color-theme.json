@@ -1,10 +1,23 @@
 {
 	"name": "SLC-dark",
+	// 色名
+	// lockon-indigo: #000e14
+	// grazed-glacier: #dbf1fe
+	// seeker-blue: #00aad4
+	// avena-green: #00d455
+	// tempu-pink: #e52981
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#000e14",
+		"editor.foreground": "#dbf1fe",
+		"activityBarBadge.background": "#00aad4",
+		"activityBar.background": "#000e14",
+		"sideBarTitle.foreground": "#dbf1fe",
+		"sideBar.background": "#000e14",
+		"editorGroupHeader.tabsBackground": "#001e2b",
+		"tab.inactiveBackground": "#000e1460",
+		"tab.activeForeground": "#dbf1fe",
+		"tab.activeBorderTop": "#dbf1fe",
+		// "tab.activeBackground": "#00aad4"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +28,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#dbf1fe98"
 			}
 		},
 		{
