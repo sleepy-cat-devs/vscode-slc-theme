@@ -1,0 +1,21 @@
+{
+  "name": "slc-dark",
+  "displayName": "SLC-dark",
+  "description": "The Color theme that inspired by SleepyCat's color image.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SLC-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SLC-dark-color-theme.json"
+      }
+    ]
+  }
+}
