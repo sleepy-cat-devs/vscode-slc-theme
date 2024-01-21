@@ -3,6 +3,7 @@
 	// 色名
 	// lockon-indigo: #000e14
 	// grazed-glacier: #dbf1fe
+	// grazed-glay: #565e63
 	// seeker-blue: #00aad4
 	// avena-green: #69cf5e
 	// tempu-pink: #e52981
@@ -18,6 +19,13 @@
 		"editorBracketHighlight.foreground5": "#69cf5e9d",
 		"editorBracketHighlight.foreground6": "#8763d09d",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#e52981",
+		"editor.selectionBackground": "#00aad454",
+		// 検索機能の色設定
+		"editor.findMatchBackground": "#565e63",
+		"editor.findMatchBorder": "#dbf1fe",
+		"editor.findMatchHighlightBackground": "#69cf5e55",
+		"editor.findMatchHighlightBorder": "#00aad4",
+		"editor.findRangeHighlightBackground": "#00aad466",
 		"titleBar.activeBackground": "#000e14",
 		// アクティビティバーの設定
 		"activityBar.background": "#000e14",
@@ -32,14 +40,20 @@
 		"sideBarSectionHeader.foreground": "#000e14",
 		"sideBar.background": "#000e14",
 		"sideBar.border": "#dbf1fe8f",
+		// ボタンの設定
+		"button.background": "#00aad4cd",
+		"button.foreground": "#dbf1fe",
 		// タブの設定
 		"editorGroupHeader.tabsBackground": "#001e2b",
 		"tab.inactiveBackground": "#000e1460",
 		"tab.activeForeground": "#dbf1fe",
 		"tab.activeBorderTop": "#dbf1feaf",
 		// ステータスバー（画面下部）
-		"statusBar.background": "#000e14",
 		"statusBar.border": "#dbf1fe",
+		"statusBar.background": "#000e14",
+		"statusBar.foreground": "#dbf1fe",
+		"statusBar.noFolderBackground": "#dbf1fe",
+		"statusBar.noFolderForeground": "#000e14",
 		// gitの色設定
 		"gitDecoration.modifiedResourceForeground": "#00aad4",
 		"gitDecoration.renamedResourceForeground": "#00aad4",
@@ -128,6 +142,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#e52981"
 			}
 		},
@@ -222,8 +237,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				// "foreground": "#B2CCD6"
-				"foreground": "#ff0000"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -245,8 +259,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				// "foreground": "#e52981"
-				"foreground": "#ff0000"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -291,13 +304,14 @@
 			}
 		},
 		{
-			"name": "CSS Classes",
+			"name": "CSS IDs, Classes",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.class",
 			],
 			"settings": {
-				// "foreground": "#FFCB6B"
-				"foreground": "#ff0000"
+				"fontStyle": "bold",
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -352,7 +366,6 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				// "foreground": "#89DDFF"
 				"foreground": "#e52981"
 			}
 		},
@@ -515,7 +528,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -526,7 +539,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -541,7 +554,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -551,8 +564,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				// "foreground": "#F78C6C"
-				"foreground": "#ff0000"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
@@ -598,7 +610,7 @@
 			],
 			"settings": {
 				// "foreground": "#FFCB6B"
-				"foreground": "#ff0000"
+				"foreground": "#69cf5e"
 			}
 		},
 		{
