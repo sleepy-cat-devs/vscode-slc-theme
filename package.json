@@ -1,7 +1,12 @@
 {
   "name": "slc-dark",
-  "displayName": "SLC-dark",
+  "displayName": "SleepyCat-dark",
   "description": "The Color theme that inspired by SleepyCat's color image.",
+  "publisher": "sleepy-cat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleepy-cat-devs/vscode-slc-theme.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
@@ -12,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "SLC-dark",
+        "label": "SleepyCat-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/SLC-dark-color-theme.json"
+        "path": "./themes/slc-dark-color-theme.json"
       }
     ]
   }
