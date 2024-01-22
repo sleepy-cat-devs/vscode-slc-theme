@@ -1,7 +1,7 @@
 {
   "name": "slc-dark",
   "displayName": "SleepyCat-dark",
-  "description": "The Color theme that inspired by SleepyCat's color image.",
+  "description": "The Color theme that inspired by SleepyCat's color image.\nSleepyCatのイメージカラーを使ったテーマです。",
   "publisher": "sleepy-cat",
   "repository": {
     "type": "git",

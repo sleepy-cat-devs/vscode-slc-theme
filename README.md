@@ -2,7 +2,7 @@
 
 ## 概要
 
-* Sleepy Catのカラーテーマを意識したVSCodeの配色設定
+* Sleepy Catのカラーテーマを意識したVSCodeの配色設定です
 
 ## 導入方法
 
