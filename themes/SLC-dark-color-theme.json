@@ -24,7 +24,7 @@
 		"dropdown.foreground": "#dbf1fe",
 		"dropdown.border": "#dbf1fe",
 		// テキストボックスの設定
-		"input.background": "#dbf1fe",
+		"input.background": "#6e787e",
 		"input.foreground": "#000e14",
 		"input.border": "#00aad4",
 		// テキストボックスが空の時の文字列
