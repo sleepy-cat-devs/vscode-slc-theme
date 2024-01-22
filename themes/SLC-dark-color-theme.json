@@ -37,6 +37,8 @@
 		"editorError.background": "#e5298130",
 		"editorError.foreground": "#e52981",
 		"editor.selectionBackground": "#00aad454",
+		"editorUnicodeHighlight.background": "#8763d080",
+		"editorUnicodeHighlight.border": "#8763d0",
 		// カッコの対応関係の設定
 		"editorBracketHighlight.foreground1": "#dbf1fecd",
 		"editorBracketHighlight.foreground2": "#69cf5ecd",
@@ -419,8 +421,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				// "foreground": "#89DDFF"
-				"foreground": "#ff0000"
+				"foreground": "#e52981"
 			}
 		},
 		{
