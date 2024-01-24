@@ -14,7 +14,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "./slc-dark-icon.png",
+  "icon": "slc-dark-icon.png",
   "contributes": {
     "themes": [
       {
